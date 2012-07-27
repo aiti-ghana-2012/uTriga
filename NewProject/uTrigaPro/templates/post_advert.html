@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+{% block slider %}{% endblock %}
+{% block menu %}
+                <ul class="menu">
+                    <li class="home-page"><a href="/utriga"><span></span></a></li>
+                    <li><a href="/utriga/about">About Us</a></li>
+                    <li><a href="/utriga/services">Services</a></li>
+                    <li><a href="/utriga/projects">Projects</a></li>
+                    <li class="current " ><a href="/utriga/post">Clients</a></li>
+                    <li><a href="/utriga/contact">Contact Us</a></li>
+                </ul>
+{% endblock %}
+{% block content %}
+          
+<form method='post' action="" class="form-horizontal" >
+<div >
+{{ form.as_p }}
+</br>
+<input class="btn btn-info" type='submit' name='Submit' value="Post Advert">
+</form>
+</div>
+{% endblock %}
+
+

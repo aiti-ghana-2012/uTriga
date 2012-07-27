@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+<title>{% block title %}yblog{% endblock %}</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/static/boot/css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/static/boot/css/bootstrap-responsive.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/static/boot/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/static/ucss/style.css">
+
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Project name</a>
+          <div class="btn-group pull-right">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+              <i class="icon-user"></i> Username
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Profile</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Sign Out</a></li>
+            </ul>
+          </div>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+    </br></br></br></br>
+	<div style="margin:0px auto; width: 900px ">
+	<nav class="box-shadow">
+            <div>
+				{% block menu %}
+                <ul class="menu">
+                    <li class="home-page current"><a href="/utriga"><span></span></a></li>
+                    <li><a href="/utriga/about">About Us</a></li>
+                    <li><a href="/utriga/services">Services</a></li>
+                    <li><a href="/utriga/projects">Projects</a></li>
+                    <li><a href="/utriga/post">Clients</a></li>
+                    <li><a href="/utriga/contact">Contact Us</a></li>
+                </ul>
+                {% endblock %}
+                <div class="social-icons">
+                    <span>Follow us:</span>
+                    <a href="#" class="icon-3"></a>
+                    <a href="#" class="icon-2"></a>
+                    <a href="#" class="icon-1"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </nav>
+    </header>
+</br></br></br></br>
+
+	
+	
+	<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="item"><img src="/static/pictures/slider-1.jpg" />
+    <div class="carousel-caption"><h3 style="color:white">We offer best of movie advertisments</h3></div>
+    </div>
+    <div class="item"><img src="/static/pictures/slider-2.jpg" /></div>
+    <div class="item"><img src="/static/pictures/slider-3.jpg" /></div>
+    <div class="item"><img src="/static/pictures/slider-4.jpg" /></div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+
+	<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/static/boot/js/jquery.js"></script>
+    <script src="/static/boot/js/bootstrap-transition.js"></script>
+    <script src="/static/boot/js/bootstrap-alert.js"></script>
+    <script src="/static/boot/js/bootstrap-modal.js"></script>
+    <script src="/static/boot/js/bootstrap-dropdown.js"></script>
+    <script src="/static/boot/js/bootstrap-scrollspy.js"></script>
+    <script src="/static/boot/js/bootstrap-tab.js"></script>
+    <script src="/static/boot/js/bootstrap-tooltip.js"></script>
+    <script src="/static/boot/js/bootstrap-popover.js"></script>
+    <script src="/static/boot/js/bootstrap-button.js"></script>
+    <script src="/static/boot/js/bootstrap-collapse.js"></script>
+    <script src="/static/boot/js/bootstrap-carousel.js"></script>
+    <script src="/static/boot/js/bootstrap-typeahead.js"></script>
+	<script>
+	$('.carousel').carousel({ interval: 4000 })
+	</script>
+	
+</body>
+</html>
+
