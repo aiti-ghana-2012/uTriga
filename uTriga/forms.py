@@ -41,6 +41,13 @@ class ContactForm(forms.Form):
     telephone=forms.CharField()
     message= forms.CharField(widget=forms.Textarea)
 
+class SubscriptionForm(forms.Form):
+    mobile_num=forms.IntegerField()
+    username = forms.CharField()
+    email= forms.EmailField()
+    birth_date= forms.DateField()
+    event = forms.
+
 ##class AdvSignUpForm(forms.Form):
 ##    class Meta:
 ##        model=Advertiser
