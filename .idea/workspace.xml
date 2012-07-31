@@ -2,294 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76eb6d7-0c6c-4015-8b84-9bd5140fb2e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uTriga.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/css/grid_12.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/css/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/banner-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/banner-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/banner-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/bg-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/button-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/comment-bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/comment-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/icon-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/icon-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/icon-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/list-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/number-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/number-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/number-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/number-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/number2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/page1-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/page2-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/page4-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/page4-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/page4-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/page4-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/page4-img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/page4-img6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/pagination.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/row-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/shadow-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/shadow-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/slider-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/slider-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/slider-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/slider-shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/slogan-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/images/transp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/PIE.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/PIE.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/jquery-1.7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/jquery-ui-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/jquery.bgiframe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/jquery.timePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/0assets/js/tms-0.4.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FinalProject" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/image_uploads/bb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/image_uploads/bb_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/media/image_uploads/Screenshot_at_2012-07-18_113017.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/media/image_uploads/bb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/media/image_uploads/bb_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/css/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/phantom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-phantom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/unit/bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/vendor/qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/boot/js/tests/vendor/qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/logo0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/logo4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/logo6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/logo9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/main.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/main1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/banner-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/banner-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/banner-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/banner-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/banner-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/border-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/current.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/home-page-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/icon-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/icon-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/icon-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/marker.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page1-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page1-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page1-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page2-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page2-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page2-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page2-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page2-img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page3-img1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page3-img2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page3-img3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page3-img4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page3-img5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page3-img6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page4-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page4-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page4-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page4-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page4-img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page4-img6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/page5-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/pagination-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/pagination.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/search-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/slider-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/slider-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/slider-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/slider-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/pictures/transp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/slider-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ucss/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ucss/grid_12.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ucss/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ucss/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ucss/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ucss/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/PIE.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/PIE.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/jquery-1.7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/jquery-ui-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/jquery.bgiframe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/jquery.timePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/assets/ujs/tms-0.4.x.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/css/grid_12.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/css/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/banner-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/banner-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/banner-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/bg-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/button-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/comment-bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/comment-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/icon-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/icon-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/icon-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/list-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/number-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/number-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/number-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/number-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/number2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/page1-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/page2-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/page4-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/page4-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/page4-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/page4-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/page4-img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/page4-img6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/pagination.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/row-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/shadow-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/shadow-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/slider-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/slider-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/slider-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/slider-shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/slogan-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/images/transp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/js/PIE.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/js/PIE.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/js/jquery-1.7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/js/tms-0.4.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/products.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site0/services.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/clients.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/contacts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/css/grid_12.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/css/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/banner-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/banner-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/banner-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/banner-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/banner-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/border-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/current.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/home-page-img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/icon-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/icon-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/icon-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/main.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/marker.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page1-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page1-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page1-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page2-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page2-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page2-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page2-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page2-img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page3-img1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page3-img2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page3-img3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page3-img4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page3-img5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page3-img6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page4-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page4-img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page4-img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page4-img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page4-img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page4-img6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/page5-img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/pagination-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/pagination.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/search-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/slider-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/slider-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/slider-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/images/transp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/js/PIE.htc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/js/PIE.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/js/jquery-1.7.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/js/tms-0.4.x.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/projects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/site1/services.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utriga pix/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utriga pix/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utriga pix/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utriga pix/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utriga pix/plays.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewProject/uTriga/api.py" afterPath="$PROJECT_DIR$/NewProject/uTriga/api.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewProject/uTrigaPro/urls.py" afterPath="$PROJECT_DIR$/NewProject/uTrigaPro/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reg/views.py" afterPath="$PROJECT_DIR$/reg/views.py" />
     </list>
     <ignored path="uTriga.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -311,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewProject/uTriga/admin.py">
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uTriga/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.04">
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewProject/uTriga/views.py">
+        <entry file="file://$PROJECT_DIR$/uTriga/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="22" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.04">
               <folding>
                 <element signature="e#0#81#0" expanded="true" />
               </folding>
@@ -333,42 +47,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewProject/reg/views.py">
+      <file leaf-file-name="post_advert.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uTrigaPro/templates/post_advert.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="46" selection-start="289" selection-end="289" vertical-scroll-proportion="-1.9354838">
+            <state line="9" column="34" selection-start="495" selection-end="495" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewProject/reg/models.py">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reg/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NewProject/uTriga/models.py">
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uTrigaPro/templates/reg/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NewProject/uTriga/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="45" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.6643952">
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -389,6 +90,7 @@
         <option value="$PROJECT_DIR$/NewProject/reg/views.py" />
         <option value="$PROJECT_DIR$/NewProject/uTriga/views.py" />
         <option value="$PROJECT_DIR$/NewProject/uTriga/forms.py" />
+        <option value="$PROJECT_DIR$/reg/views.py" />
       </list>
     </option>
   </component>
@@ -424,16 +126,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -462,7 +154,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NewProject" />
+              <option name="myItemId" value="uTrigaPro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,10 +168,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NewProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="uTriga" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -491,15 +179,21 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="uTriga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewProject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="reg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -510,8 +204,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -545,6 +239,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="b76eb6d7-0c6c-4015-8b84-9bd5140fb2e8" name="Default" comment="" />
       <created>1343730105791</created>
       <updated>1343730105791</updated>
     </task>
@@ -554,23 +249,23 @@
     <frame x="-1" y="-5" width="1368" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25455928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -628,53 +323,42 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NewProject/uTriga/admin.py">
+    <entry file="file://$PROJECT_DIR$/uTriga/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.04">
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewProject/reg/models.py">
+    <entry file="file://$PROJECT_DIR$/uTriga/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewProject/reg/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="289" selection-end="289" vertical-scroll-proportion="-1.9354838">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewProject/uTriga/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewProject/uTriga/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="22" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.04">
           <folding>
             <element signature="e#0#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NewProject/uTriga/forms.py">
+    <entry file="file://$PROJECT_DIR$/uTrigaPro/templates/post_advert.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="45" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.6643952">
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state line="9" column="34" selection-start="495" selection-end="495" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uTrigaPro/templates/reg/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reg/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>

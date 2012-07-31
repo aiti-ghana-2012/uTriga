@@ -20,7 +20,7 @@ def do_login(request):
         form=LoginForm(request.POST) # create instance of loginform
         user=authenticate(username=usr,password=passwrd)# authenticate user
         if user is not None:
-            if user.is_active:
+            if user.is_active:]
                 login(request,user) #log user in
                 return HttpResponseRedirect("/utriga/post/")
 
