@@ -50,6 +50,8 @@ class AppUser(models.Model):
     def __unicode__(self):
         return str(self.mobile_num)
 
+
+
 ##class News(models.Model):
 ##    news_title=models.CharField()
 ##    created=models.DateField(auto_now_add=True)

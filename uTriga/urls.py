@@ -12,6 +12,7 @@ urlpatterns = patterns('uTriga.views',
     url(r'^advertisers/$','advertiser_list'),
     url(r'^users/$','user_list'),                   
     url(r'^boot/$','boot_test'),
+    url(r'^upload/$','upload'),
     
     ## add your url here
 )
