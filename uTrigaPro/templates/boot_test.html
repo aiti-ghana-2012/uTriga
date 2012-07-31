@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}Home{% endblock %}</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/utriga/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/utriga/css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="/static/utriga/css/grid_12.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/utriga/css/slider.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/utriga/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/utriga/css/bootstrap-responsive.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+	
+	<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">uTriga</a>
+          <div class="btn-group pull-right">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+              <i class="icon-user"></i> Username
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Profile</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Sign Out</a></li>
+            </ul>
+          </div>
+          <!--<div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+  <div class="main">
+  <!--==============================header=================================-->
+    <header>
+        <h1></br><a href="#" style="font-family:'Mutter Krause'; color:#89B9C6; font-size:60px">uTriga<!--<img src="images/logo.png" alt="">--></a></h1>
+        <div class="form-search">
+            <form id="form-search" method="post">
+              <input type="text" value="Type here..." onBlur="if(this.value=='') this.value='Type here...'" onFocus="if(this.value =='Type here...' ) this.value=''"  />
+              <a href="#" onClick="document.getElementById('form-search').submit()" class="search_button"></a>
+            </form>
+        </div>   
+        <div class="clear"></div>    
+        <nav class="box-shadow">
+            <div>
+                <ul class="menu">
+                   {% block menu %}
+                    <li class="home-page current"><a href="/utriga"><span></span></a></li>
+                    <li><a href="/utriga/about">About Us</a></li>
+                    <li><a href="/utriga/services">Downloads</a></li>
+                    <li><a href="/utriga/projects">Blog</a></li>
+                    <li><a href="/utriga/post">Advertise</a></li>
+                    <li><a href="/utriga/contact">Contact Us</a></li>
+                    {% endblock %}
+                </ul>
+                <div class="social-icons">
+                    <span>Follow us:</span>
+                    <a href="#" class="icon-3"></a>
+                    <a href="#" class="icon-2"></a>
+                    <a href="#" class="icon-1"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </nav>
+    </header>   
+  <!--==============================content================================-->
+    {% block slider %}
+    <section id="content"><!--<div class="ic">More Website Templates @ TemplateMonster.com. April 16, 2012!</div>-->
+        <div id="slide" class="box-shadow">		
+            <div class="slider">
+                <ul class="items">
+                    <li><img src="/static/utriga/images/slider-1.jpg" alt="" />
+                    <div class="banner">The Next Level of Your Success&nbsp;</div></li>
+                    <li><img src="/static/utriga/images/slider-2.jpg" alt="" />
+                    <div class="banner">We Offer Different Ways of Problem Solving&nbsp;</div></li>
+                    <li><img src="/static/utriga/images/slider-3.jpg" alt="" />
+                    <div class="banner">We Craft Practical Solutions&nbsp;</div></li>
+                </ul>
+            </div>	
+        </div>  
+    </section> 
+    {% endblock %}
+    
+     {% block content%}
+    <div class="container_12">
+          <div class="grid_12">
+            <div class="pad-0 border-1">
+                <h2 class="top-1 p0">Triga a friend to Triga a friend. You just Triga</h2>
+                <p class="p2">Contents</p>
+            </div>
+            <div class="wrap block-1 pad-1">
+                <div>
+                    <h3>Download uTriga mobile</h3>
+                    <img src="images/page1-img1.jpg" alt="" class="img-border">
+                    <p>Contents.</p>
+                    <a href="#" class="button">More</a>
+                </div>
+                <div>
+                    <h3>Visit Our Blog</h3>
+                    <img src="images/page1-img2.jpg" alt="" class="img-border">
+                    <p>Content</p>
+                    <a href="#" class="button">More</a>
+                </div>
+                <div class="last">
+                    <h3>Be an Advertiser</h3>
+                    <img src="images/page1-img3.jpg" alt="" class="img-border">
+                    <p>Contents.</p>
+                    <a href="#" class="button">More</a>
+                </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="aside">
+            <div class="container_12">	
+                <div class="grid_12">
+                    <div class="pad-2 block-2 wrap">
+                        <div>
+                            <h3 class="p3">Advance Your Business with uTriga!</h3>
+                            <p class="p4">Contents</p>
+                            <a href="#" class="button">More</a>
+                        </div>
+                        <div class="last">
+                            <h3 class="p3">We Reach the World For You!</h3>
+                            <p class="p4">Contents.</p>
+                            <a href="#" class="button">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+{% endblock %}  
+    
+  </div>
+  
+   
+<!--==============================footer=================================-->
+    <footer>
+        <p>© 2012 utriga</p>
+        <!--<p><a rel="nofollow" href="http://templatemonster.com/" target="_blank" class="link">Website Template</a> by TemplateMonster.com</p>-->
+    </footer>	    
+
+<!--causing the image slide effect to not come
+	<script src="/static/utriga/js/jquery.js"></script>-->
+
+	<script src="/static/utriga/js/jquery-1.7.min.js"></script>
+    <script src="/static/utriga/js/jquery.easing.1.3.js"></script>
+    <script src="/static/utriga/js/tms-0.4.x.js"></script>
+    
+    <script src="/static/utriga/js/bootstrap-dropdown.js"></script>
+    <script src="/static/utriga/js/bootstrap-button.js"></script>
+    <script src="/static/utriga/js/bootstrap-collapse.js"></script> 
+    <script src="/static/utriga/js/bootstrap-carousel.js"></script>
+	<script src="/static/utriga/js/bootstrap-transition.js"></script>
+    <script src="/static/utriga/js/bootstrap-alert.js"></script>
+    <script src="/static/utriga/js/bootstrap-modal.js"></script>
+    <script src="/static/utriga/js/bootstrap-scrollspy.js"></script>
+    <script src="/static/utriga/js/bootstrap-tab.js"></script>
+    <script src="/static/utriga/js/bootstrap-tooltip.js"></script>
+    <script src="/static/utriga/js/bootstrap-popover.js"></script>
+    <script src="/static/utriga/js/bootstrap-typeahead.js"></script>
+    <script src="/static/utriga/js/bootstrap-typeahead.js"></script>
+    
+    <script>
+		$(document).ready(function(){				   	
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:false,
+				nextBu:false,
+				playBu:false,
+				duration:1000,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:true,
+				banners:'fromRight',
+				waitBannerAnimation:false,
+				progressBar:false
+			})		
+		});
+	</script>
+    
+		<script>
+	$('.datepicker').datepicker(
+	{ 
+		dateFormat: 'yy-mm-dd'
+		
+
+		}
+	)
+	</script>
+
+
+    
+</body>
+</html>

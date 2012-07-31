@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block slider %}{% endblock %}
+
+{% block content %}
+<div style="height:400px">
+
+{% if logged_in %} 
+<fieldset class="loginField">
+<h4>{{ message }}</h4>
+<h4>Click <a href="/utriga/post/"> here </a> to post an ad </h4>
+</fieldset>
+{% else %}
+<fieldset class="loginField" style="width:230px">
+<legend align="right" > Login </legend>
+<form action="." method="post" class="form-horizontal">
+     {{ form.as_p }}
+     <input type="submit" value="Login!" />
+  </form>
+</fieldset>
+  
+{% endif %}
+
+
+</div>
+{% endblock %}
+
+
+
+

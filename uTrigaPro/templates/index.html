@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/ucss/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/ucss/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/ucss/grid_12.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/ucss/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family="Mutter Krause"' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+    
+    <script src="/static/ujs/jquery-1.7.min.js"></script>
+    <script src="/static/ujs/tms-0.4.x.js"></script>
+    <script src="/static/ujs/jquery.js"></script>
+    <script src="/ui/jquery.ui.core.js"></script>
+    <script src="/ui/jquery.ui.widget.js"></script>
+    <script src="/static/ujs/jquery.ui.datepicker.js"></script>
+    <script>
+		$(document).ready(function(){				   	
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:false,
+				nextBu:false,
+				playBu:false,
+				duration:1000,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:true,
+				banners:'fromRight',
+				waitBannerAnimation:false,
+				progressBar:false
+			})		
+			
+			 $(function() {
+        $( "#id_event_date" ).datepicker();
+    });
+		});
+	</script>
+    
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+  <div class="main">
+  <!--==============================header============================#89B9C6=====-->
+   {% block header %}
+    <header>
+        <h1></br><a href="#" style="font-family:'Mutter Krause'; color:#FF4500; font-size:60px">uTriga<!--<img src="/static/pictures/logo.png" alt="">--></a></h1>
+        <div class="form-search">
+            <form id="form-search" method="post">
+              <input type="text" value="Type here..." onBlur="if(this.value=='') this.value='Type here...'" onFocus="if(this.value =='Type here...' ) this.value=''"  />
+              <a href="#" onClick="document.getElementById('form-search').submit()" class="search_button"></a>
+            </form>
+        </div>   
+        <div class="clear"></div>    
+        <nav class="box-shadow">
+            <div>
+				{% block menu %}
+                <ul class="menu">
+                    <li class="home-page current"><a href="/utriga"><span></span></a></li>
+                    <li><a href="/utriga/about">About Us</a></li>
+                    <li><a href="/utriga/services">Services</a></li>
+                    <li><a href="/utriga/projects">Projects</a></li>
+                    <li><a href="/utriga/post">Clients</a></li>
+                    <li><a href="/utriga/contact">Contact Us</a></li>
+                </ul>
+                {% endblock %}
+                <div class="social-icons">
+                    <span>Follow us:</span>
+                    <a href="#" class="icon-3"></a>
+                    <a href="#" class="icon-2"></a>
+                    <a href="#" class="icon-1"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </nav>
+    </header>
+    {% endblock %}   
+  <!--==============================content================================-->
+    
+    <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com. April 16, 2012!</div>
+        {% block slider %}
+        <div id="slide" class="box-shadow">		
+            <div class="slider">
+                <ul class="items">
+                    <li><img src="/static/pictures/slider-1.jpg" alt="" />
+                    <div class="banner">Let Your Adverts Talk for You &nbsp;</div></li>
+                    <li><img src="/static/pictures/slider-2.jpg" alt="" />
+                    <div class="banner">We Offer Different Ways of Solving Problems&nbsp;</div></li>
+                    <li><img src="/static/pictures/slider-3.jpg" alt="" />
+                    <div class="banner">We Meet Your Every Advertising Need &nbsp;</div></li>
+                    <li><img src="/static/pictures/slider-4.jpg" alt="" />
+                    <div class="banner">Get Informed On The Latest &nbsp;</div></li>
+                </ul>
+            </div>	
+        </div>
+        {% endblock %}
+        <div class="container_12">
+          <div class="grid_12">
+            {% block content%}
+            <div class="pad-0 border-1">
+                <h2 class="top-1 p0">Triga A Friend To Triga a Friend! U just Triga</h2>
+             <p class="p2"><!--Global is one of <a href="http://blog.templatemonster.com/free-website-templates/" target="_blank" class="link">
+				 free website templates</a> created by TemplateMonster.com team. This website template is optimized for 1280X1024 screen resolution. It is also XHTML &amp; CSS valid. The PSD source files of this <a href="http://blog.templatemonster.com/2012/04/16/free-website-template-business-site-jquery-slider/" target="_blank" class="link">Global Template
+				 </a> are available for free for the registered members of TemplateMonster.com. Feel free to get it!--></p>
+            </div>
+            <div class="wrap block-1 pad-1">
+                <div>
+                    <h3>Movies</h3>
+                    <img src="images/page1-img1.jpg" alt="" class="img-border">
+                    <p><!--Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.--></p>
+                    <a href="#" class="button">More</a>
+                </div>
+                <div>
+                    <h3>Sports</h3>
+                    <img src="images/page1-img2.jpg" alt="" class="img-border">
+                    <p><!--Teugiat nulla facilisis at vero eros etmsan et iusto odio dignissim qui blandit praesent luptatum zzril.--></p>
+                    <a href="#" class="button">More</a>
+                </div>
+                <div class="last">
+                    <h3>Commedy</h3>
+                    <img src="images/page1-img3.jpg" alt="" class="img-border">
+                    <p><!--Buis dolore te feugait nulla facilisi lorem ipsum dolor siamet consectetuer adipiscing elit, sed diam nonummy.--></p>
+                    <a href="#" class="button">More</a>
+                </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="aside">
+            <div class="container_12">	
+                <div class="grid_12">
+                    <div class="pad-2 block-2 wrap">
+                        <div>
+                            <h3 class="p3">News</h3>
+                            <p class="p4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore etdolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                            <a href="#" class="button">More</a>
+                        </div>
+                        <div class="last">
+                            <h3 class="p3">We Work For You!</h3>
+                            <p class="p4">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                            <a href="#" class="button">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div> 
+          {% endblock %}
+    </section> 
+  </div>    
+<!--==============================footer=================================-->
+    {% block footer %}
+    <footer>
+        <p style="color:black">© 2012 uTriga</p>
+        <!--<p><a rel="nofollow" href="http://templatemonster.com/" target="_blank" class="link">Website Template</a> by TemplateMonster.com</p>-->
+    </footer>
+    {% endblock %}	    
+    
+    
+    <!--==========================================================================-->
+    
+</body>
+</html>

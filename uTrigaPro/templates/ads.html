@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block slider %}{% endblock %}
+{% block content %} 
+<div style="height:400px">
+	
+	
+<ul>
+{% for ad in list_of_ads %}
+<li>Adverts:  {{ad}}</li>
+{% endfor %}
+</ul>
+
+
+</div>
+{% endblock %}
