@@ -8,6 +8,9 @@ urlpatterns = patterns('uTriga.views',
     url(r'^projects/$','projects'),
     url(r'^about/$','about_us'),
     url(r'^contact/$','contact_us'),
+    url(r'^ads/$','ad_list'),
+    url(r'^advertisers/$','advertiser_list'),
+    url(r'^users/$','user_list'),                   
     url(r'^boot/$','boot_test'),
     
     ## add your url here

@@ -1,6 +1,7 @@
 from django.conf.urls import patterns, include, url
 from django.conf import settings
 from uTriga.api import UserResource,EventResource,CategoryResource 
+from django.contrib.auth.views import password_reset
 
 event_resource = EventResource()
 user_resource = UserResource()
@@ -22,5 +23,6 @@ url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
 (r'^event/', include(event_resource.urls)),
 (r'^user/', include(user_resource.urls)),
 (r'^category/', include(category_resource.urls)),
-                                             
+ (r'^reset/$', 'uTriga.views.reset_password'),
+                             
 )

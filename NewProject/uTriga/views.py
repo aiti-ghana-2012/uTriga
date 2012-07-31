@@ -1,38 +1,38 @@
 from django.http import HttpResponse, HttpResponseForbidden, HttpResponseRedirect
-from models import Event,Advertiser,Category,User,News
+from models import Advertiser,Category,User,Event
 from django import forms
+from forms import EventForm
+from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import render_to_response
-from django.forms import ModelForm
-from django.db import models
-from django.forms.extras.widgets import SelectDateWidget
+from django.contrib.auth.views import password_reset
+
 def home(request):
 
     html="<html><center><b><h1>WELCOME TO uTriga</h1></b></center></html>"
-    return render_to_response("index.html",locals()) 
-
-def make_custom_datefield(f):
-    formfield = f.formfield()
-    if isinstance(f, models.DateField):
-        formfield.widget.format = '%m/%d/%Y'
-        formfield.widget.attrs.update({'class':'datePicker', 'readonly':'true'})
-    return formfield
-
-class EventForm(forms.ModelForm):
-    formfield_callback = make_custom_datefield
-    class Meta:
-        model=Event
-        #event_date=models.DateField(widget=SelectDateWidget(years=BIRTH_YEAR_CHOICES))
-        #exclude=['reminder_date','event_advertiser',]
-
+    return render_to_response("base.html",locals()) 
+            
+@csrf_exempt
 def post_advert(request):
     logged_in =request.user.is_authenticated() # get login status
-    if logged_in:    
+    if logged_in:
         form=EventForm()
-        #return HttpResponse('In post_advert')
-        return render_to_response("post_advert.html",locals())
-
-    return HttpResponseRedirect('/utriga/reg/login/')
-
+        current_user=request.user # get username as string
+        this_advertiser=Advertiser.objects.get(user=current_user)
+        if request.method == 'POST': # if user clicks submit button do...
+            event_instance= Event(event_advertiser=this_advertiser,
+                                  reminder_date=request.POST['event_date'],
+                                  reminder_time=request.POST['event_time'])
+            form=EventForm(request.POST,request.FILES,instance=event_instance)# get form field inputs
+            
+            if form.is_valid():
+                form.save() # save in database
+                return render_to_response("post_advert.html",locals())
+        else:
+            return render_to_response("post_advert.html",locals())
+    else:
+        return HttpResponseRedirect('/utriga/reg/login/')
+    
+    return render_to_response("post_advert.html",locals())
 
 
 def see_posts(request): 
@@ -54,9 +54,39 @@ def about_us(request):
     #return HttpResponse('ABOUT US')
 
 def contact_us(request):
+
     return render_to_response("contact_us.html",locals())
     #return HttpResponse('ABOUT US')
 
 
 def boot_test(request):
     return render_to_response("boot_test.html",locals())
+
+def user_list(request):
+    logged_in =request.user.is_authenticated() # get login status
+    list_of_users= User.objects.all()# get all users
+
+    return render_to_response("users.html",locals())
+    #return HttpResponse('user list')
+
+def ad_list(request):
+    logged_in =request.user.is_authenticated() # get login status
+    list_of_ads= Event.objects.all() # get all events
+
+    return render_to_response("ads.html",locals())
+    #return HttpResponse('ad list')
+
+def advertiser_list(request):
+    logged_in =request.user.is_authenticated() # get login status
+    list_of_advertisers= Advertiser.objects.all() # get all events
+
+    return render_to_response("advertisers.html",locals())
+    #return HttpResponse('advertiser list')
+
+def reset_password(request):
+    
+    template_name="reset_password.html"
+
+    return password_reset(request)
+    #return HttpResponse('Reset')
+

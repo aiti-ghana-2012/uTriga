@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block slider %}{% endblock %}
+{% block content %}
+<div style="height:400px">
+<ul>
+{% for advertiser in list_of_advertisers %}
+<li>Advertiser:  {{advertiser}}</li>
+{% endfor %}
+</ul>
+
+</div>
+{% endblock %}

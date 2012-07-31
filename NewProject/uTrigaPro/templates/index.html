@@ -10,8 +10,38 @@
     <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family="Mutter Krause"' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
-    <!--<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>-->
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
     
+    <script src="/static/ujs/jquery-1.7.min.js"></script>
+    <script src="/static/ujs/tms-0.4.x.js"></script>
+    <script src="/static/ujs/jquery.js"></script>
+    <script src="/ui/jquery.ui.core.js"></script>
+    <script src="/ui/jquery.ui.widget.js"></script>
+    <script src="/static/ujs/jquery.ui.datepicker.js"></script>
+    <script>
+		$(document).ready(function(){				   	
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:false,
+				nextBu:false,
+				playBu:false,
+				duration:1000,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:true,
+				banners:'fromRight',
+				waitBannerAnimation:false,
+				progressBar:false
+			})		
+			
+			 $(function() {
+        $( "#id_event_date" ).datepicker();
+    });
+		});
+	</script>
     
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -68,10 +98,14 @@
         <div id="slide" class="box-shadow">		
             <div class="slider">
                 <ul class="items">
-                    <li><img src="/static/pictures/slider-1.jpg" alt="" /><div class="banner">Let Your Adverts Talk for You &nbsp;</div></li>
-                    <li><img src="/static/pictures/slider-2.jpg" alt="" /><div class="banner">We Offer Different Ways of Solving Problems&nbsp;</div></li>
-                    <li><img src="/static/pictures/slider-3.jpg" alt="" /><div class="banner">We Meet Your Every Advertising Need &nbsp;</div></li>
-                    <li><img src="/static/pictures/slider-4.jpg" alt="" /><div class="banner">Get Informed On The Latest &nbsp;</div></li>
+                    <li><img src="/static/pictures/slider-1.jpg" alt="" />
+                    <div class="banner">Let Your Adverts Talk for You &nbsp;</div></li>
+                    <li><img src="/static/pictures/slider-2.jpg" alt="" />
+                    <div class="banner">We Offer Different Ways of Solving Problems&nbsp;</div></li>
+                    <li><img src="/static/pictures/slider-3.jpg" alt="" />
+                    <div class="banner">We Meet Your Every Advertising Need &nbsp;</div></li>
+                    <li><img src="/static/pictures/slider-4.jpg" alt="" />
+                    <div class="banner">Get Informed On The Latest &nbsp;</div></li>
                 </ul>
             </div>	
         </div>
@@ -140,35 +174,6 @@
     
     
     <!--==========================================================================-->
-    <script src="/static/ujs/jquery-1.7.min.js"></script>
-    <script src="/static/ujs/tms-0.4.x.js"></script>
-    <script src="/static/ujs/jquery.js"></script>
-    <script src="/ui/jquery.ui.core.js"></script>
-    <script src="/ui/jquery.ui.widget.js"></script>
-    <script src="/static/ujs/jquery.ui.datepicker.js"></script>
-    <script>
-		$(document).ready(function(){				   	
-			$('.slider')._TMS({
-				show:0,
-				pauseOnHover:true,
-				prevBu:false,
-				nextBu:false,
-				playBu:false,
-				duration:1000,
-				preset:'fade',
-				pagination:true,
-				pagNums:false,
-				slideshow:7000,
-				numStatus:true,
-				banners:'fromRight',
-				waitBannerAnimation:false,
-				progressBar:false
-			})		
-			
-			 $(function() {
-        $( "#id_event_date" ).datepicker();
-    });
-		});
-	</script>
+    
 </body>
 </html>
