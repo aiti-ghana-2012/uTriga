@@ -54,6 +54,7 @@ def about_us(request):
     #return HttpResponse('ABOUT US')
 
 # uploads a players match
+@csrf_exempt
 def upload(request):
     if request.method == 'POST':
         #scoreone = int(request.POST['scoreone'])
